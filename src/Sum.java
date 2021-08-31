@@ -8,6 +8,7 @@ public class Sum extends LearnArrayList{
 
         int a = 5;
         int b = 8;
+        int c= 9;
 
 //        int add ( int i, int j){
 //            return i + j;
