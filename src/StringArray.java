@@ -17,7 +17,12 @@ public class StringArray {
             System.out.println(wk +"has length " + length);
             System.out.println(w +" has longest length is "+ longest);
         }
-     //   System.out.println(length);
+
+        for(int i= week.length-1;i>= 0;i--){
+            System.out.println(week[i]);
+
+        }
+        //System.out.println("you are here ");
 
     }
 }
