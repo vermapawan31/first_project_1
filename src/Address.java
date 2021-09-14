@@ -6,7 +6,7 @@ public class Address {
 
 
     public Address (String line1, String city,String state){
-        this.state=state;
+        this.city=city;
         this.line1=line1;
         this.state=state;
     }
@@ -21,9 +21,22 @@ public class Address {
         return state;
     }
 
+    public void setLine1(String line1) {
+        this.line1 = line1;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
     public String toString(){
-        return String.format("line1 "+line1 + "city " +city+ "state "+state);
+        return String.format("line1: "+line1 + " city: " +city+ " state: "+state);
 
     }
- //   System.out.println(state);
+
+
 }
