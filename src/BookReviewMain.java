@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class BookReviewCaller {
+public class BookReviewMain {
     public static void main(String[] args) {
 
 //Review review= new Review(11,"cool",7);
