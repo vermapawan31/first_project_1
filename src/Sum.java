@@ -1,8 +1,7 @@
 
-import java.util.ArrayList;
-import java.util.List;
+import collection.LearnArrayList;
 
-public class Sum extends LearnArrayList{
+public class Sum extends LearnArrayList {
     public static void main(String[] args) {
 
 
