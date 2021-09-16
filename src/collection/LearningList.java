@@ -4,6 +4,8 @@ import com.sun.tools.javac.util.List;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class LearningList {
@@ -50,6 +52,9 @@ public class LearningList {
         while(it.hasNext()){
             System.out.println("iterator "+it.next());
         }
+
+        Collections.sort(numbers);
+        System.out.println(numbers);
     }
 
 }
