@@ -19,8 +19,8 @@ public class Sum extends LearnArrayList {
 //        }
 
           LearnArrayList lal=new LearnArrayList();
-        System.out.println(lal.k);
-        System.out.println(lal.sum());
+        //System.out.println(lal.);
+      //  System.out.println(lal.sum());
 
 
 

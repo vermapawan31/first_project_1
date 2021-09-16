@@ -18,8 +18,8 @@ public class MainClass extends Sum {
       //  System.out.println(s1.add(a,b));
 
         LearnArrayList lal=new LearnArrayList();
-        System.out.println(lal.k);
-        System.out.println(lal.sum());
+       // System.out.println(lal.k);
+     //   System.out.println(lal.sum());
 
     }
 }

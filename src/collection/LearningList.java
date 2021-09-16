@@ -4,6 +4,7 @@ import com.sun.tools.javac.util.List;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class LearningList {
 
@@ -32,9 +33,23 @@ public class LearningList {
         empid.addAll(numbers);
         System.out.println(empid);
 
-        numbers.addAll(empid);
-        System.out.println(numbers);
+//        numbers.addAll(empid);
+//        System.out.println(numbers);
 
+        // for loop
+        for(int i=0;i< numbers.size();i++){
+            System.out.println("testing "+ numbers.get(i));
+        }
+        //enhanced for loop
+        for(Integer i:numbers){
+            System.out.println("enhanced "+i);
+        }
+
+        //Iterator
+        Iterator it= numbers.iterator();
+        while(it.hasNext()){
+            System.out.println("iterator "+it.next());
+        }
     }
 
 }
