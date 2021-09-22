@@ -19,6 +19,7 @@ public class Filters {
 
     public static void evenOdd(List<Integer> list){
         list.stream().filter(element-> element%2==0).forEach(element-> System.out.println(element));
+        list.stream().map(e->e*e).forEach(element-> System.out.println(element));
 
     }
 }
